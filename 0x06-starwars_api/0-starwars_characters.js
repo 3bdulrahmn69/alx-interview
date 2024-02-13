@@ -1,7 +1,7 @@
 #!/usr/bin/node
 
 const request = require('request');
-const apiURL = "https://swapi-api.hbtn.io/api/films/"
+const apiURL = 'https://swapi-api.hbtn.io/api/films/';
 
 request(`${apiURL}${process.argv[2]}`, function (err, res, body) {
   if (err) throw err;
