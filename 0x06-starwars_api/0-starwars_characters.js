@@ -1,1 +1,3 @@
-console.log("hey")
+#!/usr/bin/node
+
+console.log('hey');
